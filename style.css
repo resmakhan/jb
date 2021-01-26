@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+  
+}
+.coto{
+    background-color: black;
+    padding: 30px 0;
+    color: white;
+}
+.coto ul{
+    text-align: center;
+    list-style: none;
+
+
+}
+.coto ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    margin: 0 5px;
+    font-size: 25px;
+    position: relative;
+}
+h2{
+   
+    text-align: center;
+    padding: 25px 0;
+    background-color: rgb(216, 210, 210);
+    color: black;
+    font-size:30px ;
+}
+.moto{
+    background-image:url("download\ .jpg");
+    background-size:cover;
+     padding: 30px;
+     text-align: center;
+     height: 200px;
+position: relative;
+  
+}
+.moto ul{
+    
+    padding: 20px ;
+    margin: 20px;
+   text-align: center;
+   list-style: none;
+   background-color:black;
+   color: white;
+   display: inline-block;
+   position: relative;
+
+}
+.one li{
+text-align: center;
+font-size: 20px;
+
+}
+
+.one ::before{
+    font-family: "Font Awesome 5 Brands"; content: "\f6af";
+    font-size:80;
+    margin: 10px;
+}
+.two{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.two  li::before{
+content: "\f";
+font-family: "Font Awesome 5 free";
+font-weight: 600;
+margin-right: 10px;
+}
+.two li::after{
+    content: "\f";
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    margin-left: 10px;
+}
+.three{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 120px;
+}
+.three li::before{
+    content: "\f2a2";
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.alo{
+  
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: rgb(51, 118, 173);
+}
+.alo ul{
+    margin: 10px;
+    padding: 20px 15px;
+}
+.alo li{
+    background-color: rgb(255, 139, 23);
+    display:inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border:1px solid transparent ;
+}
+footer{
+    color: white;
+
+}
+.alo ul i:hover{
+    transition: .4s;
+    background-color: cornsilk;
+ 
+}
